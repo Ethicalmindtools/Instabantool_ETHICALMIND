@@ -36,7 +36,7 @@ def open_youtube():
 
 def main():
     banner()
-    print("\033[1;33mWelcome to Cybersmits Instagram Reporter 😎\033[0m\n")
+    print("\033[1;33mWelcome to ETHICALMIND Instagram Reporter 😎\033[0m\n")
     username = input("\033[1;32mEnter target Instagram username: @\033[0m")
     print("\033[1;35m\nPreparing to report @" + username + "...\033[0m\n")
     time.sleep(2)
