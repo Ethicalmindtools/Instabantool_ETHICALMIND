@@ -28,7 +28,7 @@ def Real_process():
 def open_youtube():
     print("\033[1;33m\n🔗 Redirecting to our YouTube channel...\033[0m")
     time.sleep(2)
-    try:7
+    try:
         # This works for Termux with `termux-open-url` if installed
         subprocess.run(["termux-open-url", "https://youtube.com/@ethical_mind"])
     except FileNotFoundError:
