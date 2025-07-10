@@ -11,7 +11,7 @@ def banner():
 ╚══════════════════════════════╝
 """ + "\033[0m")
 
-def Real_process():
+def fake_process():
     steps = [
         "Connecting to Instagram servers...",
         "Fetching target account info...",
